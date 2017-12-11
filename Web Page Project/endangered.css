@@ -1,0 +1,56 @@
+/*
+* Maura Mullin
+* Monday, December 11, 2017
+* Endangered Species Project
+*/
+
+
+/* The universal selector */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* page design */
+
+body { width: 950px; 
+margin: auto; 
+background-color: Lightyellow; 
+font-family:  DejaVu Sans Mono, monospace; }
+
+#topimg { border: 2px dashed red;
+ float: left; 
+ margin: 10px;
+ height: 200px; 
+ width: 200px }
+ 
+h2 { color: midnightblue; }
+
+p { color: Dimgray; }
+
+header { text-align: center;  
+color: midnightblue;
+border-bottom: 2px solid red}
+
+img {  
+margin: 20px; 
+height: 150px; width: 150px;
+border: solid red;}
+
+#bottomimg { border: 2px dashed red;
+float: right;
+height: 150px; 
+width: 150px; }
+
+footer { 
+border-top: 2px solid red;}
+
+
+
+
+
+
+
+
+
