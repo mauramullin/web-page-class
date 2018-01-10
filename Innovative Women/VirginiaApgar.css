@@ -1,0 +1,57 @@
+/* Maura Mullin */
+/* Three Column Template */
+/* January 11, 2018 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+
+header { 
+    border-bottom: 2px solid #ef9c00; }
+    
+h1 { text-align: center;}
+
+body {
+    width: 964px;
+    background-color: WhiteSmoke;
+    text-align:center;
+    margin: 15px auto;
+    border: 1px solid black; 
+    color: Maroon
+    }
+
+#sidebarA {
+    width: 24%;
+    height: 400px;     
+    float: left;
+    border-right: 2px solid #ef9c00;
+    text-decoration: underline; }
+
+main {
+    width: 50%;  
+    float:left;
+    text-align: left}
+/* adding border and adjusting the height and width of picture */ 
+#topimg { 
+	margin: 20px;
+	height: 150px; width: 150px;
+	border: solid SandyBrown;
+	float: left }
+
+#sidebarB {
+    width: 24%;
+    height: 400px;     
+    float: right;
+    border-left: 2px solid #ef9c00; 
+    text-decoration: underline;
+    }
+/* picture of Apgar's book; adding aborder and adjusting height and width */
+#bottomimg {
+	margin: 20px
+	height: 100px; width: 100px;
+	border: dashed SandyBrown;
+    }
+footer {
+    clear: both; 
+    border-top: 2px solid #ef9c00;
+    text-align:left }
